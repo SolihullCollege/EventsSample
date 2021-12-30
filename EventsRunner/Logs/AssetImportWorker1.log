@@ -1,0 +1,421 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.2f1 (5e2b1e92c7f8) revision 6171422'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16334 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+H:/WorkGit/EventsRunner
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59554
+Successfully changed project path to: H:/WorkGit/EventsRunner
+H:/WorkGit/EventsRunner
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 33.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.2f1 (5e2b1e92c7f8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path H:/WorkGit/EventsRunner/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   27.21.14.6140
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007458 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 30.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.496 seconds
+Domain Reload Profiling:
+	ReloadAssembly (496ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (355ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (87ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (198ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007014 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 29.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.923 seconds
+Domain Reload Profiling:
+	ReloadAssembly (924ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (687ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (163ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (333ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (29ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (55.9 KB). Loaded Objects now: 2327.
+Memory consumption went from 85.9 MB to 85.9 MB.
+Total: 2.950800 ms (FindLiveObjects: 0.177900 ms CreateObjectMapping: 0.045100 ms MarkObjects: 2.637300 ms  DeleteObjects: 0.089400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6614.863209 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Arch_Gothic_RoundColumn.blend
+  artifactKey: Guid(34015970fb15bcc4ca086d68eb8d1706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Arch_Gothic_RoundColumn.blend using Guid(34015970fb15bcc4ca086d68eb8d1706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ed9400f5946082803d4d506858c019') in 0.208831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Curve_1.blend
+  artifactKey: Guid(9c36d1e590d0121489dbad944d528891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Curve_1.blend using Guid(9c36d1e590d0121489dbad944d528891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2eb556950f5120901e1958b8423f2f6') in 0.066971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Pot2_Broken.blend
+  artifactKey: Guid(9dfab8102fe7e3d45b06b3369b887d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Pot2_Broken.blend using Guid(9dfab8102fe7e3d45b06b3369b887d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a9f9485b74f06070a755b89cd3e000') in 0.037943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Grass.blend
+  artifactKey: Guid(924628504b6541541a0706abb801cb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Grass.blend using Guid(924628504b6541541a0706abb801cb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3378277b6765accd69983e88d55033') in 0.028980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Torch.blend
+  artifactKey: Guid(95fba1b91a2fec049a3be9645cab5de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Torch.blend using Guid(95fba1b91a2fec049a3be9645cab5de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1fbb13baae63e58ddee4616d1c8124') in 0.038632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/DeadTree_2.blend
+  artifactKey: Guid(7bfd454ae77b4a642b572d3c3b6bc832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/DeadTree_2.blend using Guid(7bfd454ae77b4a642b572d3c3b6bc832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee07943a9775a206d8f496dc460517c9') in 0.023331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Flag_Wall.blend
+  artifactKey: Guid(20a07af6d40ea874286e39271b4cad55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Flag_Wall.blend using Guid(20a07af6d40ea874286e39271b4cad55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f974ac11ca581830af807a20ac09d94') in 0.028210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Curve_1_Overgrown.blend
+  artifactKey: Guid(5dfa6411ceafb364ca6275df75cb711c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Curve_1_Overgrown.blend using Guid(5dfa6411ceafb364ca6275df75cb711c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1281db33bd4a25284f147bac5d1c0987') in 0.062780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Support_Tall.blend
+  artifactKey: Guid(aa6496631b944154bbeaf6043c3da23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Support_Tall.blend using Guid(aa6496631b944154bbeaf6043c3da23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8227f6e54edbc138000b8266ce9b4ee') in 0.022564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Window_Open_Double.blend
+  artifactKey: Guid(922db35c357c3764b8bbb5ee97100f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Window_Open_Double.blend using Guid(922db35c357c3764b8bbb5ee97100f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd14e77b1614f0fd2919e893dd3d8a3d') in 0.039786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Pot1.blend
+  artifactKey: Guid(ea2696902ce39ea438bf01b53f890a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Pot1.blend using Guid(ea2696902ce39ea438bf01b53f890a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dffbddf74ca025e8acd04e98cea7d08') in 0.025838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Doors_RoundArch.blend
+  artifactKey: Guid(28becb77feff3584fbd694e50e4173ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Doors_RoundArch.blend using Guid(28becb77feff3584fbd694e50e4173ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c476e39f6923e1746574dfa0165e94c2') in 0.059941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/BridgeSection.blend
+  artifactKey: Guid(433eb70f179d2604283cefb55f9dd11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/BridgeSection.blend using Guid(433eb70f179d2604283cefb55f9dd11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ed06b137d2ab047e830d82c7ccfc59') in 0.024155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Crate.blend
+  artifactKey: Guid(9ed9eca7748d6854bbbe3b50df4438e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Crate.blend using Guid(9ed9eca7748d6854bbbe3b50df4438e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f28756326a10e7aa504b5badcdfc94e') in 0.023916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Arch_Round_RoundColumn.blend
+  artifactKey: Guid(3199fc69f34bff340957eac7bd855eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Arch_Round_RoundColumn.blend using Guid(3199fc69f34bff340957eac7bd855eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36085997dc574974fe1b799d96ff3032') in 0.052331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Wall_Broken.blend
+  artifactKey: Guid(f2891e493a204384a9a63037fc104bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Wall_Broken.blend using Guid(f2891e493a204384a9a63037fc104bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd013ff7250dcc1083bfaa23d23890e56') in 0.024099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Bush_2x2.blend
+  artifactKey: Guid(ae551e5c82492fc40817519414c357b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Bush_2x2.blend using Guid(ae551e5c82492fc40817519414c357b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e41f87952193326c30fe56df836c3e') in 0.048326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Wall_Double_Hole.blend
+  artifactKey: Guid(8c921360d66a6da43afb5857ffd92453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Wall_Double_Hole.blend using Guid(8c921360d66a6da43afb5857ffd92453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de1858e404c48419eb4243997ff3714') in 0.023805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Column_BridgeSupport.blend
+  artifactKey: Guid(b4558f0c28160a9458031dab2950ba6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Column_BridgeSupport.blend using Guid(b4558f0c28160a9458031dab2950ba6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f9d37b136b59e547c4df7f91fe99b1') in 0.054866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Stairs.blend
+  artifactKey: Guid(f630a27f6d97e2945a331278851b3f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Stairs.blend using Guid(f630a27f6d97e2945a331278851b3f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02ec0b2878eb894a4588a1e88211209') in 0.025351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Arch_Round.blend
+  artifactKey: Guid(97f643757ca97364288134f5b6ef217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Arch_Round.blend using Guid(97f643757ca97364288134f5b6ef217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7e6021a8c575a1d41ad0147992609c') in 0.026367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Pot3_Broken.blend
+  artifactKey: Guid(0d9e1e9dbbf6d664d9156c210e715444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Pot3_Broken.blend using Guid(0d9e1e9dbbf6d664d9156c210e715444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf215c5817ce8fbaa3a9612d1714dfa') in 0.029594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Chest.blend
+  artifactKey: Guid(332a22f11aa2c77479382bc6cf2e7b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Chest.blend using Guid(332a22f11aa2c77479382bc6cf2e7b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b41bce285a62243cd3b85c1723c584') in 0.039675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Flag_GothicArch.blend
+  artifactKey: Guid(ec3216306b4384942aa5fe70cb35f048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Flag_GothicArch.blend using Guid(ec3216306b4384942aa5fe70cb35f048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2ce0779e04c2d2f7125b80e23c7b05') in 0.042942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Rail_Divider.blend
+  artifactKey: Guid(a79dc504f6ecc684d8ab7fc097c4e8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Rail_Divider.blend using Guid(a79dc504f6ecc684d8ab7fc097c4e8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8d97f23d662010ae4ce9970fe55cb7') in 0.059227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Brick.blend
+  artifactKey: Guid(6114e67978e9504448b05c196eb85501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Brick.blend using Guid(6114e67978e9504448b05c196eb85501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc78cad17070764bbcd5ea0e92a0c485') in 0.022942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Support_Left.blend
+  artifactKey: Guid(a2c59b16f75936b40bc5e062959bc28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Support_Left.blend using Guid(a2c59b16f75936b40bc5e062959bc28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f94ed9527fd5304dff7d4f99ad62f6') in 0.074870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Tree_1.blend
+  artifactKey: Guid(cb3f9edffe2ba4147afdd530b9e79205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Tree_1.blend using Guid(cb3f9edffe2ba4147afdd530b9e79205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8e1695b1a82d1a6b8c6e6f0b99648d') in 0.058743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/DeadTree_3.blend
+  artifactKey: Guid(1887422e7f1f5fa4482a099a6dbf2930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/DeadTree_3.blend using Guid(1887422e7f1f5fa4482a099a6dbf2930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ab7249aee7468d93e1477cb0be896e') in 0.021293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Window_Bars_Double_Overgrown.blend
+  artifactKey: Guid(b4b46623b239b5948a787dab6be32961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Window_Bars_Double_Overgrown.blend using Guid(b4b46623b239b5948a787dab6be32961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e855f230d4e958c93a1dde5579fd51') in 0.093016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Pot1_Broken.blend
+  artifactKey: Guid(c828fa8dc0354d04eacb7db889e3db5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Pot1_Broken.blend using Guid(c828fa8dc0354d04eacb7db889e3db5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68bcb378a314487d882db41c1ee656d6') in 0.032769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Barrel.blend
+  artifactKey: Guid(587ef67415d3e194eb1bf9be776f5bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Barrel.blend using Guid(587ef67415d3e194eb1bf9be776f5bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d60903091ab0dcbbfd9bafcd414ab4') in 0.029091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/BearTrap_Closed.blend
+  artifactKey: Guid(b3d5698b265a86a4ab1ba2a28f46236b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/BearTrap_Closed.blend using Guid(b3d5698b265a86a4ab1ba2a28f46236b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8489aafdcc9518a6d3ce56b3f2ff07f') in 0.033483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Rail_Straight.blend
+  artifactKey: Guid(fd5cd48790a7a4a429ee8b9204497b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Rail_Straight.blend using Guid(fd5cd48790a7a4a429ee8b9204497b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432eab38719c9843133499a253e46bfc') in 0.040623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Wall_ArchRound_Overgrown.blend
+  artifactKey: Guid(3cfa137651ec5fd469a5b6a600c8cb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Wall_ArchRound_Overgrown.blend using Guid(3cfa137651ec5fd469a5b6a600c8cb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ead876bf13b5ea7b1bf11fc655d2fb') in 0.044105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Flag_RoundArch.blend
+  artifactKey: Guid(66c7110afad747f438817981d959070d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Flag_RoundArch.blend using Guid(66c7110afad747f438817981d959070d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b072711fc885ff9c67382677bb39648c') in 0.028291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Bush_2x1.blend
+  artifactKey: Guid(1c977be479af7d54584604183fe0827e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Bush_2x1.blend using Guid(1c977be479af7d54584604183fe0827e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b92464a4dc5c365d620820d1bf497aa') in 0.021520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Column_Square.blend
+  artifactKey: Guid(2bf2c33144e00c04ebb0c075554760c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Column_Square.blend using Guid(2bf2c33144e00c04ebb0c075554760c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3c9490625565dd27c907e20e86659b') in 0.022438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Doors_GothicArch_Covered.blend
+  artifactKey: Guid(b6056e2f171e76e4f8a904b5a405e40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Doors_GothicArch_Covered.blend using Guid(b6056e2f171e76e4f8a904b5a405e40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94589657070f502c7a9e170c7c0d1dca') in 0.032517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Curve_2_Overgrown.blend
+  artifactKey: Guid(fb4e66c5f5f73f54ba4e3e8a1968a413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Curve_2_Overgrown.blend using Guid(fb4e66c5f5f73f54ba4e3e8a1968a413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9688bdb1b161d6119c62bd7f34484c') in 0.044967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Stairs_2.blend
+  artifactKey: Guid(76614980723ee0f49bd47e316d8a0848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Stairs_2.blend using Guid(76614980723ee0f49bd47e316d8a0848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb8c35f78ada2c456d42ba09f4daf11') in 0.024646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Wall.blend
+  artifactKey: Guid(7ce55319a41eabc4a94df218556fd4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/Blends/Wall.blend using Guid(7ce55319a41eabc4a94df218556fd4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5b08e0ed9a877bc767ad0258b2bedd') in 0.032407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 305.153867 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/FBX/Wall_Double_Broken.fbx
+  artifactKey: Guid(fa8f19371564f9f4682c757d9e3fd17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/FBX/Wall_Double_Broken.fbx using Guid(fa8f19371564f9f4682c757d9e3fd17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b0e40bfce3c1c4c2864bd3067e91e9') in 0.053317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/FBX/Wall_Double_Hole.fbx
+  artifactKey: Guid(5517a0ded8269284c94b8ea28ae27e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models by Quaternius/Ultimate Modular Ruins Pack - Aug 2021/FBX/Wall_Double_Hole.fbx using Guid(5517a0ded8269284c94b8ea28ae27e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fedf84dc65a33cc636f8b647264a414') in 0.024839 seconds 
